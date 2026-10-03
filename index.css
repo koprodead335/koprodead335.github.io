@@ -128,3 +128,10 @@
                 transform: translateY(0);
             }
         }
+@media (max-width: 768px) {
+    .background-decor-item {
+        width: 40px;       /* Уменьшаем размер элементов на телефонах */
+        height: 40px;
+        opacity: 0.6;      /* Делаем их чуть бледнее, чтобы не отвлекали */
+    }
+}
